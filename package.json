@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kimbrow1/City-Explorer-Api/issues"
   },
-  "homepage": "https://github.com/kimbrow1/City-Explorer-Api#readme"
+  "homepage": "https://github.com/kimbrow1/City-Explorer-Api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
