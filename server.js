@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const weatherData = require("./data/weather.json"); // Use require to read the weather.json file
 
 app.get("/", (req, res) => {
-  res.send("Hello, Express Server!");
+  res.send("Hello, Server!");
 });
 
 app.get("/weather", (req, res) => {
