@@ -54,8 +54,7 @@ app.get("/weather", async (req, res) => {
 //       return res.json(cityForData);
 //     } else {
 //       return res.status(404).json({ error: "City data not found." });
-//     }
-// 
+
 
 
 
