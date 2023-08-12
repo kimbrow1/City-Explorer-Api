@@ -50,8 +50,7 @@ app.get("/weather", async (req, res) => {
 
 //   if (lat && lon) {
 //     const cityForData = weatherData.find((p) => p.lat === lat && p.lon === lon);
-//     if (cityForData) {
-//       return res.json(cityForData);
+
 
 
 
