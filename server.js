@@ -55,10 +55,7 @@ app.get("/weather", async (req, res) => {
 //     } else {
 //       return res.status(404).json({ error: "City data not found." });
 //     }
-//   } else {
-//     return res.status(400).json({ error: "lat and lon parameters are required." });
-//   }
-// });
+// 
 
 
 
