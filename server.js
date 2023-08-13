@@ -8,12 +8,7 @@
 // const WEATHERBIT = process.env.WEATHERBIT;
 // const TMDB = process.env.TMDB;
 
-// class Forecast {
-//   constructor(description, date) {
-//     this.description = description;
-//     this.date = date;
-//   }
-// }
+
 
 // class Movie {
 //   constructor (title, img, description){
@@ -84,12 +79,19 @@ const errorHandle = require("./errorHandler");
 const WEATHERBIT = process.env.WEATHERBIT;
 const TMDB = process.env.TMDB;
 
+
+
+class Forecast {
+  constructor(description, date) {
+    this.description = description;
+    this.date = date;
+  }
+}
 class Movie {
-  constructor(overview) {
+  constructor(overview, title, img) {
     this.overview = overview;
     this.title = title;
     this.img = "https://image.tmdb.org/t/p/w500" + img;
-    this.description = description;
   }
 }
 
@@ -126,7 +128,7 @@ const tmdbHandler = async (req, res, next) => {
     });
 
     const movies = movieData.data.results.map((i) => {
-      return new Movie(i.overview,);
+      return new Movie(i.overview, i.title, i.poster_path);
     });
 
     res.send(movies);
