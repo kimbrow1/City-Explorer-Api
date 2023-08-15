@@ -1,4 +1,5 @@
 const axios = require("axios");
+const WEATHERBIT = process.env.WEATHERBIT;
 
 class Forecast {
   constructor(description, date) {
