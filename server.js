@@ -51,10 +51,7 @@
 //       },
 //     }); 
 
-//     const movies = movieData.data.reults.map((i) => {
-//       return new Movie(i.overview);
-//     });
-
+//
 
 
 
