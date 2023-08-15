@@ -46,12 +46,6 @@
 //     const movieData = await axios({
 //       method: "get",
 //       url: `https://api.themoviedb.org/3/search/movie?query=${cityName}&include_adult=false&language=en-US&page=1`,
-//       headers: {
-//         "Authorization": `Bearer ${TMDB}`
-//       },
-//     }); 
-
-//
 
 
 
