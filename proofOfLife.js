@@ -1,5 +1,5 @@
 const proofOfLife = (req, res) => {
-    res.send("Hello, Server!");
-  };
+  res.send("Hello, Server!");
+};
 
-  module.exports = proofOfLife;
+module.exports = proofOfLife;
