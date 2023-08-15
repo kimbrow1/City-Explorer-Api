@@ -21,13 +21,6 @@
 
 // app.use(cors());
 
-// const proofOfLife = (req, res) => {
-//   res.send("Hello, Server!");
-// };
-
-// app.get("/", proofOfLife);
-
-// app.get("/weather", async (req, res, next) => {
 
 
 
