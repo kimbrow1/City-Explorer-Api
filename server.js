@@ -34,13 +34,7 @@
 //     const forecastArray = weatherData.data.data.map((item) => {
 //       return new Forecast(item.weather.description, item.valid_date);
 //     });
-//     res.send(forecastArray);
-//   } catch (error) {
-//     next(error);
-//   }
-// });
 
-// const tmdbHandler = async (req, res, next) => {
 
 
 
