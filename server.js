@@ -61,9 +61,8 @@
 //   }
 // };
 
-// app.get("/movies", tmdbHandler);
 
-// app.use(errorHandle);
+
 
 
 const express = require("express");
