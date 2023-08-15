@@ -41,11 +41,6 @@
 // });
 
 // const tmdbHandler = async (req, res, next) => {
-//   try {
-//     const { cityName } = req.query;
-//     const movieData = await axios({
-//       method: "get",
-//       url: `https://api.themoviedb.org/3/search/movie?query=${cityName}&include_adult=false&language=en-US&page=1`,
 
 
 
