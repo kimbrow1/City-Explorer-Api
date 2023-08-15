@@ -55,11 +55,6 @@
 //       return new Movie(i.overview);
 //     });
 
-//     res.send(movies);
-//   } catch (error) {
-//     next(error);
-//   }
-// };
 
 
 
