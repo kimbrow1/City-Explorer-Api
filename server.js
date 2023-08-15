@@ -65,9 +65,6 @@
 
 // app.use(errorHandle);
 
-// app.listen(port, () => {
-//   console.log(`Server is running on port ${port}`);
-// });
 
 const express = require("express");
 const app = express();
