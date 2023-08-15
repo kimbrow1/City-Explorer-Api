@@ -1,31 +1,3 @@
-// const express = require("express");
-// const app = express();
-// require("dotenv").config();
-// const port = process.env.PORT || 3001;
-// const cors = require('cors');
-// const axios = require("axios");
-// const errorHandle = require("./errorHandler");
-// const WEATHERBIT = process.env.WEATHERBIT;
-// const TMDB = process.env.TMDB;
-
-
-
-// class Movie {
-//   constructor (title, img, description){
-//     this.title = title;
-//     this.img = "https://image.tmdb.org/t/p/w500" + img;
-//     this.description = description;
-//   }
-// }
-
-
-// app.use(cors());
-
-
-
-
-
-
 const express = require("express");
 const app = express();
 require("dotenv").config();
